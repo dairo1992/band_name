@@ -12,10 +12,10 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   List<Band> bands = [
     Band(id: '1', name: "Vallenato", votes: 5),
-    Band(id: '1', name: "Pop", votes: 3),
-    Band(id: '1', name: "Regaeton", votes: 8),
-    Band(id: '1', name: "Salsa", votes: 6),
-    Band(id: '1', name: "Ranchera", votes: 5),
+    Band(id: '2', name: "Pop", votes: 3),
+    Band(id: '3', name: "Regaeton", votes: 8),
+    Band(id: '4', name: "Salsa", votes: 6),
+    Band(id: '5', name: "Ranchera", votes: 5),
   ];
   @override
   Widget build(BuildContext context) {
